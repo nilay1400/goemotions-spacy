@@ -1,0 +1,4 @@
+output/model-best/
+output/model-last/
+__pycache__/
+*.spacy
