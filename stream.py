@@ -14,8 +14,8 @@ if not os.path.exists(LOCAL_DIR):
 # Load the model from the downloaded path
 nlp = spacy.load(LOCAL_DIR)
 
-st.title("Emotions Predictor")
-st.write("This version simulates top 5 predicted emotions for any input.")
+st.title("GoEmotions Predictor")
+st.write("This version simulates top 5 predicted emotions for any input. Great for testing your UI!")
 
 # Text input
 text = st.text_area("Type your message here:")
